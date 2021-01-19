@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+header h1{
+
+    font-size: 36px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #21222F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.container{
+    padding: 20px 150px;
+    margin: 0 80px;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.box{
+    height: 20px;
+    background: linear-gradient(to right, #3681AB 10%,#43C79E);
+    width: 40px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.circle{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #20222F;
+    position: absolute;
+    left: 5px;
+    top: 3px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tune{
+    display: flex;
+    align-items: center;
+}
+
+.tune a{
+    color: #717898;
+}
+
+.followers p{
+    color: #717898;
+}
+
+.col1{
+    background-color: #252B43;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid #218FF4;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.col1 span i{
+    color: #1F8AE6;
+    padding-right: 5px;
+    font-size: 16px;
+}
+
+.col1 span{
+    font-size: 8px;
+    color: #777DA0;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.col1 h1{
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -5px;
+    margin-bottom: 3px;
+}
+
+
+
+.col1 .follow{
+    font-size: 7px;
+    color: #777DA0;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.col1 .likes{
+    font-size: 10px;
+    color: #1E7F6D;
+    font-weight: bolder;
+}
+
+.flex .instagram{
+    position: relative;
+}
+
+.flex .instagram .border-top{
+    background: linear-gradient(to right, #fac26f, #c75992);
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.flex .instagram{
+    border-top: none;
+}
+
+.flex .instagram span i{ 
+    color: orange;
+}
+
+.flex .instagram .follow{ 
+    letter-spacing: 7px;
+    margin-left: 15px;
+}
+
+.flex .youtube{
+    border-top: 2px solid orangered;
+}
+
+.flex .youtube span i{
+    color: orangered;
+}
+
+.flex .youtube .likes{
+    color: orangered;
+}
+
+.col2{
+    background-color: #252B43;
+    width: 23%;
+    padding: 10px;
+
+}
+
+.col2-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.col2-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.col2-1 .page{
+    color: #8A93BA;
+    font-size: 12px;
+}
+
+.col2-1 i{
+    color: #207BCE;
+}
+
+.col2-2 .num{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.col2-2 .perc{
+    color: #24947C;
+    font-size: 10px;
+}
+
+.sec h1{
+    margin-bottom: 20px;
+}
+
+.flex .col-per .perc{
+    color: orangered;
+}
+
+.flex .col-i i{
+    color: orange;
+}
+
+.flex .col-you i{
+    color: orangered;
+}
+
+.marg-up{
+    margin-top: -20px;
+}
