@@ -49,7 +49,12 @@ table {
 *{
     box-sizing: border-box;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    
+}
+
+header h1{
+
+    font-size: 36px;
 }
 
 a{
@@ -58,6 +63,8 @@ a{
 
 body{
     background-color: #21222F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 .container{
@@ -132,11 +139,13 @@ body{
 }
 
 .col1 h1{
-    font-size: 50px;
-    font-weight: bolder;
+    font-size: 60px;
+    font-weight: bold;
     letter-spacing: -5px;
     margin-bottom: 3px;
 }
+
+
 
 .col1 .follow{
     font-size: 7px;
@@ -152,8 +161,20 @@ body{
 }
 
 .flex .instagram{
-    border-top: 2px solid orange;
-    
+    position: relative;
+}
+
+.flex .instagram .border-top{
+    background: linear-gradient(to right, #fac26f, #c75992);
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.flex .instagram{
+    border-top: none;
 }
 
 .flex .instagram span i{ 
